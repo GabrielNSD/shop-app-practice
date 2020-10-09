@@ -22,7 +22,7 @@ export const authenticate = (userId, token, expiryTime) => {
 export const signup = (email, password) => {
   return async (dispatch) => {
     const response = await fetch(
-      "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDfQoDys8tGSoZDgQFWkQLMLF18MOc8_b4",
+      "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       {
         method: "POST",
         headers: {
@@ -65,7 +65,7 @@ export const signup = (email, password) => {
 export const login = (email, password) => {
   return async (dispatch) => {
     const response = await fetch(
-      "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDfQoDys8tGSoZDgQFWkQLMLF18MOc8_b4",
+      "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       {
         method: "POST",
         headers: {
